@@ -35,7 +35,7 @@ properties:
           - name: ENABLE_CRUD
             value: "false"
           - name: ERRORS
-            value: "true"
+            value: "false"
           - name: HTTP_PORTS
             value: '{{ targetPortOrDefault 0 }}'
           - name: OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EVENT_LOG_ATTRIBUTES
